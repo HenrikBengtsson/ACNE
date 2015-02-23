@@ -1,6 +1,10 @@
 Package: ACNE
 =============
 
+Version: 0.7.1-9000 [2015-02-23]
+o BUG FIX: plot() for SnpNmfFit used undefined variable 'fit'.
+
+
 Version: 0.7.1 [2014-04-27]
 o DOCUMENTATION: Rebuilt help pages which drop references to a
   few deprecated/private methods.
@@ -8,7 +12,7 @@ o DOCUMENTATION: Clarified the example(fitSnpNmfArray).
 o ROBUSTNESS: Added package system tests.
 o Bumped package dependencies.
 
- 
+
 Version: 0.7.0 [2013-10-17]
 o Added argument 'drop' to doACNE() to be more consistent with
   similar methods in aroma.affymetrix, e.g. doRMA() and doCRMAv2().

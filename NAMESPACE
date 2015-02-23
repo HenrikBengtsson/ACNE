@@ -22,7 +22,7 @@ importFrom("R.filesets", "getAsteriskTags")
 
 ## Importing functions
 importFrom("aroma.core", "findUnitsTodo")
-#importFrom("aroma.core", "fit")
+importFrom("aroma.core", "fit")
 importFrom("aroma.core", "process")
 importFrom("aroma.affymetrix", "exportTotalAndFracB")
 importFrom("aroma.affymetrix", "fitCnProbes")

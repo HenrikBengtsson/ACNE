@@ -29,7 +29,7 @@
 #*/###########################################################################
 setMethodS3("plot", "SnpNmfFit", function(x, lim=c(0,2^16), cnLim=c(0,4), epsLim=c(-1,1)*2^12, main=NULL, ...) {
   # To please R CMD check
-  this <- x;
+  fit <- x;
 
   Y <- fit$Y;
   W <- fit$W;
