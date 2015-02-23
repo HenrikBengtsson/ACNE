@@ -9,6 +9,7 @@ importFrom("R.methodsS3", "throw")
 
 ## Importing Class:es
 importFrom("R.oo", "Package")
+importFrom("aroma.affymetrix", "AffymetrixCelSet")
 importFrom("aroma.affymetrix", "AllelicCrosstalkCalibration")
 importFrom("aroma.affymetrix", "BasePositionNormalization")
 importFrom("aroma.affymetrix", "ProbeLevelModel")
@@ -20,6 +21,9 @@ importFrom("aroma.affymetrix", "getProbeAffinityFile")
 importFrom("R.filesets", "getAsteriskTags")
 
 ## Importing functions
+importFrom("aroma.core", "findUnitsTodo")
+importFrom("aroma.core", "fit")
+importFrom("aroma.core", "process")
 importFrom("aroma.affymetrix", "exportTotalAndFracB")
 importFrom("aroma.affymetrix", "fitCnProbes")
 importFrom("aroma.affymetrix", "getChipEffectSet")
@@ -35,12 +39,15 @@ importFrom("R.oo", "getDate")
 importFrom("R.oo", "getName") ## Multi-sources: R.oo, R.filesets
 importFrom("R.oo", "getPosition")
 importFrom("R.oo", "getVersion")
+importFrom("R.oo", "startupMessage")
 importFrom("R.utils", "cat") ## Multi-sources: R.utils, base
 importFrom("R.utils", "enter")
 importFrom("R.utils", "exit")
 importFrom("R.utils", "less")
 importFrom("R.utils", "stext")
 
+## Manually imported
+importFrom("R.utils", "Arguments")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # EXPORTS

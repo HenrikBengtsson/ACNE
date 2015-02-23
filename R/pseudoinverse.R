@@ -25,13 +25,13 @@
 # @keyword "internal"
 #*/###########################################################################
 pseudoinverse <- function(X, ...) {
-  svd <- svd(X);
-  d <- svd$d;
+  svd <- svd(X)
+  d <- svd$d
 
   if(length(d) == 0L) {
-    return(array(0, dim=dim(X)[2:1]));
+    array(0, dim=dim(X)[2:1])
   } else {
-    return(svd$v %*% (1/d * t(svd$u)));
+    svd$v %*% (1/d * t(svd$u))
   }
 } # pseudoinverse()
 
