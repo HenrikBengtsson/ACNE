@@ -125,11 +125,10 @@ before_install:
     fi
 
 install:
-<%= install_bioc(c("DependsNote")) %>
-<%= install_cran(c("Depends", "Imports")) %>
 <%= install_bioc(c("Depends", "Imports")) %>
-<%= install_cran("Suggests") %>
 <%= install_bioc("Suggests") %>
+<%= install_cran(c("Depends", "Imports")) %>
+<%= install_cran("Suggests") %>
 
 script:
   - $RENV run_build
