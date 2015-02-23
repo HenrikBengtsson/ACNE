@@ -2,6 +2,7 @@ Package: ACNE
 =============
 
 Version: 0.7.1-9000 [2015-02-23]
+o ROBUSTNESS: Package test coverage is 49%.
 o BUG FIX: plot() for SnpNmfFit used undefined variable 'fit'.
 
 
