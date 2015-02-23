@@ -2,6 +2,7 @@ Package: ACNE
 Version: 0.7.1-9000
 Depends: R (>= 2.15.0), aroma.affymetrix (>= 2.12.0)
 Imports: MASS, R.methodsS3 (>= 1.6.1), R.oo (>= 1.18.0), R.utils (>= 1.29.8), matrixStats (>= 0.8.14), R.filesets (>= 2.4.0), aroma.core
+Suggests: DNAcopy PSCBS
 Date: 2015-02-23
 Title: Affymetrix SNP Probe-Summarization using Non-Negative Matrix Factorization
 Authors@R: c(
