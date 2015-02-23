@@ -125,6 +125,7 @@ before_install:
     fi
 
 install:
+<%= install_bioc(c("DependsNote")) %>
 <%= install_cran(c("Depends", "Imports")) %>
 <%= install_bioc(c("Depends", "Imports")) %>
 <%= install_cran("Suggests") %>

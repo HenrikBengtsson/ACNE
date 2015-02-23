@@ -45,7 +45,8 @@ before_install:
     fi
 
 install:
- - $RENV install_r aroma.affymetrix MASS matrixStats R.filesets R.methodsS3 R.oo R.utils
+ - $RENV install_bioc DNAcopy
+ - $RENV install_r aroma.affymetrix aroma.core MASS matrixStats R.filesets R.methodsS3 R.oo R.utils
 
 
 
