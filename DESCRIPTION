@@ -12,7 +12,8 @@ Authors@R: c(
   person("Angel", "Rubio", role=c("aut")))
 Description: A summarization method to estimate allele-specific copy number signals for Affymetrix SNP microarrays using non-negative matrix factorization (NMF).
 License: LGPL (>= 2.1)
-URL: http://r-forge.r-project.org/projects/snpsprocessing/
+URL: https://github.com/HenrikBengtsson/ACNE
+BugReports: https://github.com/HenrikBengtsson/ACNE/issues
 LazyLoad: TRUE
 biocViews: aCGH, CopyNumberVariants, SNP, Microarray, OneChannel, TwoChannel, Genetics
 
