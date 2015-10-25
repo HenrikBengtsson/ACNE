@@ -15,7 +15,7 @@
 
 
 \description{
-  Package for NMF summarization of SNP probes.
+  A summarization method to estimate allele-specific copy number signals for Affymetrix SNP microarrays using non-negative matrix factorization (NMF).
 }
 
 \section{Installation and updates}{
