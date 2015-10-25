@@ -49,6 +49,12 @@ importFrom("R.utils", "stext")
 ## Manually imported
 importFrom("R.utils", "Arguments")
 
+importFrom("graphics", "abline", "layout", "legend", "lines", "par",
+           "plot", "points", "text", "title")
+importFrom("stats", "cor", "density", "median", "na.omit")
+importFrom("utils", "str")
+
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # EXPORTS
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

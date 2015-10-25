@@ -1,6 +1,10 @@
 Package: ACNE
 =============
 
+Version: 0.8.0-9000 [2015-10-24]
+o ROBUSTNESS: Importing core R functions.
+
+
 Version: 0.8.0 [2015-02-23]
 o ROBUSTNESS: Package test coverage is 49%.
 o BUG FIX: plot() for SnpNmfFit used undefined variable 'fit'.
