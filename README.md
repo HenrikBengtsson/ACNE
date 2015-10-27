@@ -7,13 +7,6 @@ R package ACNE is available on [CRAN](http://cran.r-project.org/package=ACNE) an
 install.packages('ACNE')
 ```
 
-### Pre-release version
-
-To install the pre-release version that is available in branch `develop`, use:
-```r
-source('http://callr.org/install#HenrikBengtsson/ACNE@develop')
-```
-This will install the package from source.  
 
 
 
