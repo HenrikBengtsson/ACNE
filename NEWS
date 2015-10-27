@@ -1,7 +1,7 @@
 Package: ACNE
 =============
 
-Version: 0.8.0-9000 [2015-10-24]
+Version: 0.8.1 [2015-10-24]
 o ROBUSTNESS: Importing core R functions.
 
 
