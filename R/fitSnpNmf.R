@@ -51,7 +51,7 @@ fitSnpNmf <- function(V, acc=0.02, maxIter=10, maxIterRlm=20, refs=NULL) {
 
   # Argument 'refs':
   if (is.null(refs)) {
-    refs <- seq(length=I);
+    refs <- seq_len(I);
   } else if (!is.vector(refs)) {
     throw("Argument 'refs' is not a vector: ", class(refs)[1L]);
   } else if (is.logical(refs)) {

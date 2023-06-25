@@ -5,7 +5,7 @@ importFrom("R.methodsS3", "setMethodS3")
 importFrom("R.oo", "setConstructorS3")
 importFrom("R.oo", "extend")
 importFrom("R.oo", "uses")
-importFrom("R.methodsS3", "throw")
+importFrom("R.oo", "throw")
 
 ## Importing Class:es
 importFrom("R.oo", "Package")

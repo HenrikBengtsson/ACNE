@@ -147,8 +147,8 @@ robustWInit <- function(V, H, maxIter=50L, ...) {
 
   oddIdxs <- seq(from=1L, to=2L*maxIter, by=2L);
   evenIdxs <- seq(from=2L, to=2L*maxIter, by=2L);
-  mediansWA <- rowMedians(Ws[,oddIdxs,drop=FALSE]);
-  mediansWB <- rowMedians(Ws[,evenIdxs,drop=FALSE]);
+  mediansWA <- rowMedians(Ws, cols = oddIdxs);
+  mediansWB <- rowMedians(Ws, cols = evenIdxs);
 
   # Truncate non-positive values
   mediansWA[mediansWA < 0] <- eps;
