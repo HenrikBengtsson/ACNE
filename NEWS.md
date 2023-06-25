@@ -5,6 +5,8 @@
  * Made NMF initialization a bit faster by call **matrixStats**
    functions with optimized subsetting of rows and columns.
 
+ * Importing `throw()` from **R.oo** instead of **R.methodsS3**.
+
 
 # Version 0.8.1 [2015-10-24]
 
