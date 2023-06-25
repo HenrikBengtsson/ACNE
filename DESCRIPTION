@@ -1,5 +1,5 @@
 Package: ACNE
-Version: 0.8.1-9004
+Version: 0.9.0
 Depends:
   R (>= 3.0.0),
   aroma.affymetrix (>= 2.14.0)
