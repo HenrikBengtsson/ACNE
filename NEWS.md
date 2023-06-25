@@ -1,6 +1,9 @@
 # Version (development version)
 
- * ...
+## Miscellaneous
+
+ * Made NMF initialization a bit faster by call **matrixStats**
+   functions with optimized subsetting of rows and columns.
 
 
 # Version 0.8.1 [2015-10-24]
@@ -16,7 +19,6 @@
 
  * `plot()` for `SnpNmfFit` used undefined variable `fit`.
 
-
 ## Miscellaneous
 
  * ROBUSTNESS: Package test coverage is 49%.
@@ -30,7 +32,6 @@
    deprecated/private methods.
 
  * Clarified the `example(fitSnpNmfArray)`.
-
 
 ## Miscellaneous
 
@@ -46,20 +47,17 @@
  * Now importing only what needs to be imported and formally declaring
    all S3 methods in NAMESPACE.
 
-
 ## New Features
 
  * Added argument `drop` to `doACNE()` to be more consistent with
    similar methods in **aroma.affymetrix**, e.g. `doRMA()` and
    `doCRMAv2()`.
 
-
 ## Documentation
 
  * Added a help page for `doACNE()`.
 
  * Added references to ACNE article.
-
 
 ## Miscellaneous
 
@@ -93,7 +91,6 @@
    packages, e.g. **R.methods**, **R.oo**, **matrixStats*, and
    **MASS**.
 
-
 ## Miscellaneous
 
  * Added `.Rbuildignore` to package so that `incl/` and other
@@ -107,7 +104,6 @@
 ## Significant Changes
 
  * Now package imports **utils**, **R.methodsS3**, and **R.oo**.
-
 
 ## Bug Fixes
 
@@ -161,7 +157,6 @@
    was replaced with 10.0 due to a "stray" argument in an internal
    function call.  This bug has been there since March 24, 2009.
 
-
 ## Deprecated and Defunct
 
  * All flavors of NMF algorithms but the default one (`"v4"`) is
@@ -174,7 +169,6 @@
 
  * Added `doACNE()`.  Added also redundancy tests for it.
 
-
 ## Deprecated and Defunct
 
  * Now a `flavor` tag is added to `NmfPlm`:s only if `flavor != "v4"`
@@ -186,7 +180,6 @@
 ## Significant Changes
 
  * Set the license to LGPL v2.1 or newer.
-
 
 ## Miscellaneous
 
@@ -209,7 +202,6 @@
 
  * Removed an obsolete `testScripts/`.
 
-
 ## Bug Fixes
 
  * One of the `testScripts/` had a type.
@@ -220,7 +212,6 @@
 ## Significant Changes
 
  * Renamed package to **ACNE** (from **aroma.affymetrix.nmf**).
-
 
 ## Miscellaneous
 
@@ -238,7 +229,6 @@
 
  * Added `snpMatrixToArray()` and `snpArrayToMatrix()`.
 
-
 ## Documentation
 
  * Added example code with example data for `fitSnpNmfArray()`.
@@ -250,11 +240,9 @@
 
  * Removed obsolete dependency on the **impute** package.
 
-
 ## Documentation
 
  * Added Rdoc comments (Rd help pages).
-
 
 ## Miscellaneous
 
@@ -275,7 +263,6 @@
 ## Significant Changes
 
  * `NmfPlm` now inherits from `ProbeLevelModel`.
-
 
 ## Deprecated and Defunct
 

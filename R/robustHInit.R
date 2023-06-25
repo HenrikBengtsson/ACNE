@@ -60,8 +60,8 @@ robustHInit <- function(V, W, maxIter=5L, ...) {
 
   oddIdxs <- seq(from=1L, to=maxIter*K, by=2L);
   evenIdxs <- seq(from=2L, to=maxIter*K, by=2L);
-  H[1L,] <- colMedians(Haux[oddIdxs,,drop=FALSE]);
-  H[2L,] <- colMedians(Haux[evenIdxs,,drop=FALSE]);
+  H[1L,] <- colMedians(Haux, rows = oddIdxs);
+  H[2L,] <- colMedians(Haux, rows = evenIdxs);
 
   # Sanity check (may be removed in the future /HB 2009-03-24)
   stopifnot(nrow(H) == 2L && ncol(H) == I);
