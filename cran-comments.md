@@ -1,6 +1,6 @@
 # CRAN submission ACNE 0.9.0
 
-on 2023-06-215
+on 2023-06-25
 
 Thanks in advance
 
@@ -15,7 +15,7 @@ The package has been verified using `R CMD check --as-cran` on:
 | ------------- | ------ | ----- | --------------- |
 | 4.1.x         | L      |       |                 |
 | 4.2.x         | L M W  |       |                 |
-| 4.3.x         | L M W  | L . W | M1 W            |
+| 4.3.x         | L M W  | L . W |  . W            |
 | devel         | L M W  | L   W |    W            |
 
 *Legend: OS: L = Linux, M = macOS, M1 = macOS M1, W = Windows*
