@@ -1,5 +1,5 @@
 Package: ACNE
-Version: 0.8.1
+Version: 0.8.1-9001
 Depends: R (>= 3.0.0), aroma.affymetrix (>= 2.14.0)
 Imports: MASS, R.methodsS3 (>= 1.7.0), R.oo (>= 1.19.0), R.utils (>= 2.1.0), matrixStats (>= 0.14.2), R.filesets (>= 2.9.0), aroma.core (>= 2.14.0)
 Suggests: DNAcopy
