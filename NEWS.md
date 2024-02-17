@@ -2,6 +2,8 @@
 
 ## Documentation
 
+ * Add `citation(package = "ACNE")`.
+ 
  * Fix minor Rd help-page issues.
 
 
