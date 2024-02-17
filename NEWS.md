@@ -1,13 +1,15 @@
 # Version (development version)
 
- * ...
+## Documentation
+
+ * Fix minor Rd help-page issues.
 
 
 # Version 0.9.0 [2023-06-25]
 
 ## Miscellaneous
 
- * Made NMF initialization a bit faster by call **matrixStats**
+ * Made NMF initialization a bit faster by calling **matrixStats**
    functions with optimized subsetting of rows and columns.
 
  * Importing `throw()` from **R.oo** instead of **R.methodsS3**.

@@ -24,10 +24,7 @@ fitSnpNmfArray(Y, ...)
  \item{Y}{An Lx2xI \code{\link[base]{array}} where L is number of probe pairs,
     2 is the number of alleles (A and B),
     and I is the number of arrays.}
- \item{maxIter}{A positive \code{\link[base]{integer}} specifying the maximum number of
-    iterations used to calculate the decomposition.}
- \item{acc}{A positive \code{\link[base]{double}} specifying the converence threshold. For
-    more details on convergence, see below.}
+ \item{...}{Additional arguments passed to \code{\link{fitSnpNmf}}().}
 }
 
 \value{
