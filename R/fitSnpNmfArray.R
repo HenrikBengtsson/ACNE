@@ -13,10 +13,7 @@
 #  \item{Y}{An Lx2xI @array where L is number of probe pairs,
 #     2 is the number of alleles (A and B),
 #     and I is the number of arrays.}
-#  \item{maxIter}{A positive @integer specifying the maximum number of
-#     iterations used to calculate the decomposition.}
-#  \item{acc}{A positive @double specifying the converence threshold. For
-#     more details on convergence, see below.}
+#  \item{...}{Additional arguments passed to @see "fitSnpNmf".}
 # }
 #
 # \value{
