@@ -17,15 +17,16 @@
 # }
 #
 # \arguments{
-#  \item{csR, dataSet}{An @see "AffymetrixCelSet" (or the name of an
-#   @see "AffymetrixCelSet").}
+#  \item{csR, dataSet}{An @see "aroma.affymetrix::AffymetrixCelSet" (or the
+#   name of an @see "aroma.affymetrix::AffymetrixCelSet").}
 #  \item{fln}{If @TRUE, CRMAv2-style PCR fragment-length normalization
 #   is performed, otherwise not.}
 #  \item{drop}{If @TRUE, the RMA summaries are returned, otherwise
 #   a named @list of all intermediate and final results.}
-#  \item{verbose}{See @see "Verbose".}
-#  \item{...}{Additional arguments used to set up @see "AffymetrixCelSet"
-#   (when argument \code{dataSet} is specified).}
+#  \item{verbose}{See @see "R.utils::Verbose".}
+#  \item{...}{Additional arguments used to set up
+#   @see "aroma.affymetrix::AffymetrixCelSet" (when argument \code{dataSet}
+#   is specified).}
 # }
 #
 # \value{
