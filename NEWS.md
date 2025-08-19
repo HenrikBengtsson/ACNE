@@ -1,3 +1,10 @@
+# Version 0.9.2 [2025-08-19]
+
+## Documentation
+
+ * Add missing package anchors for a few Rd links.
+
+
 # Version 0.9.1 [2024-02-17]
 
 ## Documentation

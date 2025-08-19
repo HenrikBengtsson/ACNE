@@ -26,15 +26,16 @@
 }
 
 \arguments{
- \item{csR, dataSet}{An \code{\link{AffymetrixCelSet}} (or the name of an
-  \code{\link{AffymetrixCelSet}}).}
+ \item{csR, dataSet}{An \code{\link[aroma.affymetrix]{AffymetrixCelSet}} (or the
+  name of an \code{\link[aroma.affymetrix]{AffymetrixCelSet}}).}
  \item{fln}{If \code{\link[base:logical]{TRUE}}, CRMAv2-style PCR fragment-length normalization
   is performed, otherwise not.}
  \item{drop}{If \code{\link[base:logical]{TRUE}}, the RMA summaries are returned, otherwise
   a named \code{\link[base]{list}} of all intermediate and final results.}
- \item{verbose}{See \code{\link{Verbose}}.}
- \item{...}{Additional arguments used to set up \code{\link{AffymetrixCelSet}}
-  (when argument \code{dataSet} is specified).}
+ \item{verbose}{See \code{\link[R.utils]{Verbose}}.}
+ \item{...}{Additional arguments used to set up
+  \code{\link[aroma.affymetrix]{AffymetrixCelSet}} (when argument \code{dataSet}
+  is specified).}
 }
 
 \value{
