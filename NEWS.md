@@ -2,7 +2,7 @@
 
 ## Documentation
 
- * Add package anchors for a few Rd links.
+ * Add missing package anchors for a few Rd links.
 
 
 # Version 0.9.1 [2024-02-17]
